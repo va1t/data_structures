@@ -1,6 +1,6 @@
 ## Data Structures
 
-Learn data structures, TDD, and more!
+Learn data structures, TDD, and more!  
 :: Linked lists  
 :: Stacks  
 :: Queues  
