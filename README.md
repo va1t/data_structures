@@ -1,11 +1,11 @@
 ## Data Structures
 
 Learn data structures, TDD, and more!
-:: Linked lists
-:: Stacks
-:: Queues
-:: Trees
-:: Graphs
+:: Linked lists  
+:: Stacks  
+:: Queues  
+:: Trees  
+:: Graphs  
 
 ## Installation
 
