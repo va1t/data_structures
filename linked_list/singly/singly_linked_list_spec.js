@@ -3,14 +3,14 @@
 var expect = require('chai').expect;
 
 describe('Singly Linked List', function() {
-  var linkedList = require("./singly_linked_list.js");
+  var LinkedList = require("./singly_linked_list.js");
 
   it('should exist', function() {
-    expect(linkedList).to.not.be.undefined;
+    expect(LinkedList).to.not.be.undefined;
   });
 
   it('should return a new node where data equals 1', function() {
-    var list = new linkedList();
+    var list = new LinkedList();
     var input = 1;
 
     var expected = 1;
@@ -20,7 +20,7 @@ describe('Singly Linked List', function() {
   });  
 
   it('should return a length of 5', function() {
-    var list = new linkedList();
+    var list = new LinkedList();
 
     for(var i=0; i<6; i++) {
       list.insert(i);
@@ -33,7 +33,7 @@ describe('Singly Linked List', function() {
   });
 
   it('should return null if data does not exist when deleting', function() {
-    var list = new linkedList();
+    var list = new LinkedList();
 
     for(var i=0; i<12; i++) {
       list.insert(i);

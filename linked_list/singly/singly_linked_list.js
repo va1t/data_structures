@@ -1,6 +1,6 @@
 // singly_linked_list.js
 
-function linkedList() {
+function LinkedList() {
 
   this.head = null;
 
@@ -68,4 +68,4 @@ function linkedList() {
 
 };
 
-module.exports = linkedList;
+module.exports = LinkedList;
